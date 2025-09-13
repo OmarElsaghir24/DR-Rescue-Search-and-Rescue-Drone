@@ -5,7 +5,7 @@ DR Rescue is a system where a drone and a rover work collaboratively to navigate
 
 # System Overview
 * Drone Hardware: The drone is equipped with a GPS module, Inertial Measurement Unit (IMU), and a suite of sensors including LiDAR and cameras. These enable real-time terrain mapping and obstacle detection. The drone autonomously navigates to the target area, scanning for terrain features such as slopes, obstructions, and elevation changes.
-* Communication Module: A reliable communication system ensures continuous data transmission between the drone, the rover, and a central server. This allows real-time sharing of terrain data and obstacle information, enabling coordinated action.
+* Communication Module: A reliable communication system ensures continuous data transmission between the drone, the rover, and a central server. This allows real-time sharing of terrain data and obstacle information, enabling coordinated action. Used UART to establish communication between raspberry pi and flight controller.
 * Data Processing: A central server processes the drone’s incoming data to determine optimal navigation paths. It identifies hazards and adapts the route accordingly to maximize safety and efficiency for the rover.
 * User Interface: A streamlined, intuitive interface provides rescue operators with live terrain data and control over the drone’s flight plan. Designed for ease of use, the interface supports rapid deployment in time-critical situations.
 
